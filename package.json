@@ -37,5 +37,11 @@
   },
   "engines": {
     "node": ">=18.17.0"
+  },
+  "script": {
+    "build" : "next build",
+    "dev": "next dev",
+    "start" : "next start",
+    "seed" : "node -r dotenv/config ./scripts/seed.js"
   }
 }
